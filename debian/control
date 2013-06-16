@@ -1,0 +1,37 @@
+Source: libtifiles
+Priority: optional
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Andreas B. Mundt <andi@debian.org>
+Build-Depends: debhelper (>= 9.0.0), pkg-config, libglib2.0-dev, libticonv-dev (>= 1.1.0), zlib1g-dev, tfdocgen, gettext, autotools-dev, libarchive-dev
+Standards-Version: 3.9.4
+Section: libs
+Homepage: http://lpg.ticalc.org/prj_tilp/
+Vcs-Git: git://git.debian.org/git/debian-science/packages/libtifiles.git
+Vcs-Browser: http://git.debian.org/?p=debian-science/packages/libtifiles.git
+
+Package: libtifiles-dev
+Section: libdevel
+Architecture: any
+Depends: ${misc:Depends}, libtifiles2-9 (= ${binary:Version}), pkg-config, libglib2.0-dev, libticonv-dev, zlib1g-dev
+Pre-Depends: ${misc:Pre-Depends}
+Description: Texas Instruments calculator files library [development files]
+ The libtifiles is a library providing support for operations on Texas
+ Instruments calculators files. All formats for all calculators are supported
+ read/write ; the library is also able to manipulate the group files, which
+ means it is able to group and ungroup variables into such group files.
+ .
+ This package provides the development files for the library, static library,
+ required headers and documentation.
+
+Package: libtifiles2-9
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Pre-Depends: ${misc:Pre-Depends}
+Description: Texas Instruments calculator files library
+ The libtifiles is a library providing support for operations on Texas
+ Instruments calculators files. All formats for all calculators are supported
+ read/write ; the library is also able to manipulate the group files, which
+ means it is able to group and ungroup variables into such group files.
+ .
+ This package provides the shared library.

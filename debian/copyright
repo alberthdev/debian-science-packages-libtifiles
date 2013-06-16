@@ -1,0 +1,100 @@
+This package was created by Romain Liévin <roms@tilp.info> on
+Sun, 14 Jul 2002 11:58:51 +0200.
+
+It was downloaded from <http://lpg.ticalc.org/prj_tilp/>
+
+Upstream Authors:
+
+    Romain Liévin <roms@tilp.info>
+    Julien Blache <jb@jblache.org>
+    Thomas Corvazier
+    Jesse Palmer <jp@jp3d.net>
+    Kevin Kofler <Kevin@tigcc.ticalc.org>
+    Lauris Kaplinski <lauris@kaplinski.com>
+    Sylvain Garsault
+    Tyler Cassidy <tyler@tylerc.org>
+
+Copyright:
+
+    Copyright © 1999-2005 Julien Blache
+    Copyright © 1999-2008 Romain Liévin
+    Copyright © 2000-2001 Thomas Corvazier
+    Copyright © 2002 Jesse Palmer
+    Copyright © 2003 Sylvain Garsault
+    Copyright © 2003-2006 Lauris Kaplinski
+    Copyright © 2003-2007 Kevin Kofler
+    Copyright © 2006 Tyler Cassidy
+
+License (except files specified below):
+
+    This package is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This package is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this package; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
+Authors (src/minizip/*):
+
+    Gilles Vollant
+    Xavier Roche
+
+Copyright (src/minizip/*):
+
+    Copyright © 1998-2005 Gilles Vollant
+
+License (src/minizip/*):
+
+    This software is provided 'as-is', without any express or implied
+    warranty.  In no event will the authors be held liable for any damages
+    arising from the use of this software.
+
+    Permission is granted to anyone to use this software for any purpose,
+    including commercial applications, and to alter it and redistribute it
+    freely, subject to the following restrictions:
+
+    1. The origin of this software must not be misrepresented; you must not
+       claim that you wrote the original software. If you use this software
+       in a product, an acknowledgment in the product documentation would be
+       appreciated but is not required.
+    2. Altered source versions must be plainly marked as such, and must not be
+       misrepresented as being the original software.
+    3. This notice may not be removed or altered from any source distribution.
+
+Copyright (src/gettext.h):
+
+    Copyright (C) 1995-1998, 2000-2002, 2004 Free Software Foundation, Inc.
+
+License (src/gettext.h):
+
+   This program is free software; you can redistribute it and/or modify it
+   under the terms of the GNU Library General Public License as published
+   by the Free Software Foundation; either version 2, or (at your option)
+   any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+   Library General Public License for more details.
+
+   You should have received a copy of the GNU Library General Public
+   License along with this program; if not, write to the Free Software
+   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301,
+   USA.
+
+On Debian systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL-2'.
+
+On Debian systems, the complete text of the GNU Library General
+Public License can be found in `/usr/share/common-licenses/LGPL-2'.
+
+The Debian packaging is © 2002-2009, Romain Liévin <roms@tilp.info>
+and © 2009, Krzysztof Burghardt <krzysztof@burghardt.pl> and
+is licensed under the GPL, see above.
