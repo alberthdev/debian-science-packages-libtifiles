@@ -1,5 +1,7 @@
-This package was created by Romain Liévin <roms@tilp.info> on
-Sun, 14 Jul 2002 11:58:51 +0200.
+This package was created by Romain LIEVIN <roms@tilp.info> in 2002.
+It was taken over by Krzysztof Burghardt <krzysztof@burghardt.pl>
+around 2007.  Since 2012 Albert Huang <alberth.debian@gmail.com>
+worked on the package.  It is now team-maintained in Debian-Science.
 
 It was downloaded from <http://lpg.ticalc.org/prj_tilp/>
 
@@ -13,6 +15,14 @@ Upstream Authors:
     Lauris Kaplinski <lauris@kaplinski.com>
     Sylvain Garsault
     Tyler Cassidy <tyler@tylerc.org>
+
+Additional contributions by Jon Sturm <jonimoose@gmail.com>,
+Benjamin Moody <benjamin.moody@gmail.com>, and
+Lionel Debroux <lionel_debroux@yahoo.fr>, and countless others that
+have not been named here, but whose contributions are valuable and are
+very much appreciated.
+
+The current upstream maintainer is Lionel Debroux <lionel_debroux@yahoo.fr>.
 
 Copyright:
 
@@ -95,6 +105,9 @@ Public License can be found in `/usr/share/common-licenses/GPL-2'.
 On Debian systems, the complete text of the GNU Library General
 Public License can be found in `/usr/share/common-licenses/LGPL-2'.
 
-The Debian packaging is © 2002-2009, Romain Liévin <roms@tilp.info>
-and © 2009, Krzysztof Burghardt <krzysztof@burghardt.pl> and
-is licensed under the GPL, see above.
+The Debian packaging is:
+© 2002-2009 Romain Liévin <roms@tilp.info>,
+© 2009 Krzysztof Burghardt <krzysztof@burghardt.pl>,
+© 2012 Albert Huang <alberth.debian@gmail.com>,
+© 2013 Andreas B. Mundt <andi@debian.org>.
+It is licensed under the GPL (see above).

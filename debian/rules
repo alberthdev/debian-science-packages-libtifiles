@@ -10,4 +10,12 @@
 #export DH_VERBOSE=1
 
 %:
-	dh $@  --with autotools-dev
+	dh $@
+
+override_dh_clean:
+	dh_clean --exclude=build/mingw/tifiles2.rc~
+
+override_dh_strip:
+	dh_strip --dbg-package=libtifiles2-9-dbg
+
+.PHONY: override_dh_strip
