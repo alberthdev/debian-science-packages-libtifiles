@@ -1,0 +1,11 @@
+Document: tifiles-library-documentation
+Title: TiFiles Library Documentation
+Author: Romain Liévin <roms@tilp.info>
+        The TiLP team <tilp-users@lists.sf.net>
+Abstract: This manual documents the libtifiles C API for developers that wish to
+ use the libtifiles API in their application.
+Section: Programming/C
+
+Format: HTML
+Index: /usr/share/doc/libtifiles-dev/html/index.html
+Files: /usr/share/doc/libtifiles-dev/html/*.html
