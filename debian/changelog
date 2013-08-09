@@ -1,17 +1,17 @@
-libtifiles (1.1.6-1) UNRELEASED; urgency=low
+libtifiles (1.1.6-1) unstable; urgency=low
 
-  * Team maintained in Debian-Science now. (Closes: #678835, #678837)
-  * New upstream release.
-  * Created a debug package to provide debugging symbols.
-  * Added support for multiarch.
+  * Team maintained in Debian-Science now (closes: #678835, #678837).
+  * New upstream release in cooperation with Albert Huang
+    <alberth.debian@gmail.com>, thanks!
+  * Create debug package to provide debugging symbols.
+  * Add support for multiarch.
   * Add symbols file.
-  * Added debian/watch to enable upstream update tracking.
-  * Bumped versions of libti* dependencies for compatibility and stability.
-  * Updated to packaging format 3.0, bumped debian/compat to 9 and updated
-    debhelper version to 9.
-  * Bumped Standards-Version to 3.9.4.
+  * Add 'debian/watch' to enable upstream release tracking.
+  * Bump versions of libti* dependencies.
+  * Switch to packaging format 3.0 (quilt), bump 'debian/compat' to 9.
+  * Bump Standards-Version to 3.9.4.
 
- -- Andreas B. Mundt <andi@debian.org>  Mon, 10 Jun 2013 14:11:16 +0200
+ -- Andreas B. Mundt <andi@debian.org>  Fri, 09 Aug 2013 22:22:35 +0200
 
 libtifiles (1.1.1-1) unstable; urgency=low
 
