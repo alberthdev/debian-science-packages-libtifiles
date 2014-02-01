@@ -21,7 +21,8 @@ Package: libtifiles-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libglib2.0-dev,
+Depends: libarchive-dev,
+         libglib2.0-dev,
          libticonv-dev,
          libtifiles2-9 (= ${binary:Version}),
          pkg-config,

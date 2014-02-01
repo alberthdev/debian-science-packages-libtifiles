@@ -1,3 +1,10 @@
+libtifiles (1.1.6-3) unstable; urgency=medium
+
+  * Add libarchive-dev to dependencies of libtifiles-dev (LP: #1265311).
+    Thanks to Sam Segers <sam.sgrs@gmail.com>.
+
+ -- Andreas B. Mundt <andi@debian.org>  Sun, 02 Feb 2014 00:01:30 +0100
+
 libtifiles (1.1.6-2) unstable; urgency=medium
 
   * Use dh-autoreconf to fix FTBFS on ppc64el (closes: #734219), thanks to
