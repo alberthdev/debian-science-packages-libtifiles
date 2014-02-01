@@ -1,3 +1,11 @@
+libtifiles (1.1.6-2) unstable; urgency=medium
+
+  * Use dh-autoreconf to fix FTBFS on ppc64el (closes: #734219), thanks to
+    Logan Rosen <logan@ubuntu.com>.
+  * Bump Standards-Version to 3.9.5 (no changes needed).
+
+ -- Andreas B. Mundt <andi@debian.org>  Sat, 01 Feb 2014 09:59:10 +0100
+
 libtifiles (1.1.6-1) unstable; urgency=low
 
   * Team maintained in Debian-Science now (closes: #678835, #678837).
