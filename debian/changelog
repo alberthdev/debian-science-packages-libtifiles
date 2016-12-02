@@ -1,3 +1,10 @@
+libtifiles (1.1.6-4) UNRELEASED; urgency=medium
+
+  * Bump Standards-Version to 3.9.8 (no changes needed).
+  * Switch to secure URI for vcs-field.
+
+ -- Andreas B. Mundt <andi@debian.org>  Fri, 02 Dec 2016 19:14:30 +0300
+
 libtifiles (1.1.6-3) unstable; urgency=medium
 
   * Add libarchive-dev to dependencies of libtifiles-dev (LP: #1265311).
